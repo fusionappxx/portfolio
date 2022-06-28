@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everson Tomasi</title>
+  <link rel="stylesheet" href="style.css" >
+	<script src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box-perfil">
+			<img src="images/perfil.jpg" class="foto-perfil">
+			<div class="conteudo-perfil">
+				<br>
+				<h1 class="nome">Everson Tomasi</h1>
+				<p>Front End Developer</p>
+				</br>
+				<div class="skills">
+					<div class="nivel"><div class="item" data-skill='html'>HTML</div></div>
+					<div class="nivel"><div class="item" data-skill='css'>CSS</div></div>
+					<div class="nivel"><div class="item" data-skill='js'>JS</div></div>
+					<div class="nivel"><div class="item" data-skill='node'>Node</div></div>
+					<div class="nivel"><div class="item" data-skill='sql'>SQL</div></div>
+				</div>
+				<div class="social">
+					<a href="https://github.com/fusionappxx"><img src="https://img.icons8.com/fluency-systems-filled/452/github.png" class="icone-rede"></a>
+					<a href="https://www.linkedin.com/in/everson-tomasi/"><img src="https://img.icons8.com/ios-glyphs/452/linkedin-circled--v1.png" class="icone-rede"></a>
+					<a href="https://twitter.com/eversontomasi"><img src="https://img.icons8.com/ios-glyphs/452/twitter--v1.png" class="icone-rede"></a>
+				</div>
+			</div>
+    </div>
+    <div class="box-projetos">
+      <h1>Projetos</h1>
+	  <ul class="tabs">
+			<li class="categoria" onclick="mostrar('landing')">Landing Pages</li>
+			<li class="categoria" onclick="mostrar('desafios')">Desafios Alura</li>
+			<li class="categoria" onclick="mostrar('outros')">Outros</li>
+			<li class="categoria" onclick="mostrar('design')">Design</li>
+	  </ul>
+		<div id="landing" class="thumbs landing">
+			<div class="projeto_thumb l1"><h4>eImports</h4></div>
+			<div class="projeto_thumb">thumb</div>
+		</div>
+	  <div id="desafios" class="thumbs desafios" style="display: none;">
+			<a href="#"><div class="projeto_thumb a1"><h4>Portifólio</h4></div></a>
+		  <a href="https://fusionappxx.github.io/JogoDaForca/"><div class="projeto_thumb a2"></div></a>
+		  <a href="https://fusionappxx.github.io/Encriptador-Alura/"><div class="projeto_thumb a3"><h4>Encriptador</h4></div></a>
+	  </div>
+		<div id="outros" class="thumbs outros" style="display: none;">
+			<div class="projeto_thumb o1"></div>
+			<div class="projeto_thumb o2"></div>
+		</div>
+		<div id="design" class="thumbs design" style="display: none;">
+		  <a href="https://www.instagram.com/wefry_gramado/"><div class="projeto_thumb d1"><h4>weFry Design</h4></div></a>
+		  <a href="https://youtube.com/shorts/eLrVAKtc-T8"><div class="projeto_thumb d2"><h4>Letreiro Neon</h4></div></a>
+			<a href="https://youtu.be/Tt_4nsmr5oU"><div class="projeto_thumb d3"><h4>Retro Intro</h4></div></a>
+	  </div>
+    </div>
+  </div>
+
+</body>
+</html>

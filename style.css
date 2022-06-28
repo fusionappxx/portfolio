@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+* {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body {
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(43,4,71,1) 40%, rgba(201,78,135,1) 100%);
+	background-attachment:fixed;
+	font-family: 'Geo', sans-serif;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.box-perfil {
+	background-color: #fff;
+	width: 200px;
+	/* height: fit-content; */
+	margin: 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 25px rgba(201,78,135);
+}
+.foto-perfil {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -40px;
+	border-radius: 50%;
+	border: 2px solid rgba(201,78,135);
+	box-shadow: 0 0 25px rgba(201,78,135);
+}
+h1.nome {
+	text-align: center;
+	font-size: 22px;
+	margin-top: -10px;
+}
+.conteudo-perfil {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nivel {
+	width: 150px;
+	background-color:#fff;
+	border: 2px solid rgba(201,78,135);
+	box-shadow: 0 0 0 2px #fff inset;
+	margin-bottom: 5px;
+}
+.item {
+	text-align: end;
+	padding-right: 5px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-radius: 3px;
+	background-color:rgba(201,78,135);
+	font-size: 13px;
+	font-weight: 900;
+}
+div[data-skill='html'] {
+	width: 70%;
+}
+div[data-skill='css'] {
+	width: 50%;
+}
+div[data-skill='js'] {
+	width: 25%;
+}
+div[data-skill='node'] {
+	width: 10%;
+}
+div[data-skill='sql'] {
+	width: 10%;
+}
+.social {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.icone-rede {
+	width: 28px;
+	height: 28px;
+}
+.icone-rede:hover {
+	transform: scale(1.1);
+}
+.box-projetos {
+	background-color: #fff;
+	width: 60%;
+	height: fit-content;
+	min-height: 120px;
+	margin: 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 25px rgba(201,78,135);
+}
+h1 {
+	text-align: center;
+	margin-top: 15px;
+}
+ul.tabs {
+	text-align: center;
+	margin-top: 20px;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+	cursor: pointer;
+	font-size: 18px;
+}
+li:hover {
+	text-decoration-line: underline;
+	text-decoration-color: rgba(201,78,135);
+	text-decoration-thickness: 3px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.thumbs {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.projeto_thumb {
+	background-color: grey;
+	background-image: url("images/place100.png");
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	margin: 10px;
+	cursor: pointer;
+	border: 2px solid rgba(43,4,71,1);
+	text-align: center;
+}
+.l1 {
+	background-image: url("images/mini_eimports.png");
+}
+.d1 {
+	background-image: url("images/mini_wefry.png");
+}
+.d2 {
+	background-image: url("images/mini_neon_wefry.png");
+}
+.d3 {
+	background-image: url("images/mini_retro_wefry.png");
+}
+.o1 {
+	background-image: url("images/mini_ovelha.png");
+}
+.o2 {
+	background-image: url("images/mini_central.png");
+}
+/* .a1 {
+	background-image: url("images/mini_wefry.png");
+} */
+.a2 {
+	background-image: url("images/mini_jogo_forca.png");
+}
+.a3 {
+	background-image: url("images/mini_cript.png");
+}
+h4 {
+	color: #fff;
+	padding-top: 75px;
+	font-weight: 400;
+}
+.projeto_thumb:hover {
+	box-shadow: 1px 1px 0px #fff, 6px 6px 0px rgba(43,4,71,1);
+}
